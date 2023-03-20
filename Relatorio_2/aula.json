@@ -1,0 +1,76 @@
+[
+    {
+        "professor": {
+            "nome": "Bruno"
+          },
+
+        "assunto": "Banco de dados II",
+        "alunos": [
+          {
+            "nome": "Almeida"
+          },
+
+          {
+            "nome": "Vasconcelos"
+          },
+
+          {
+            "nome": "Luiz"
+          },
+
+          {
+            "nome": "Rodrigues"
+          }
+        ]
+    },
+ 
+    {
+        "professor": {
+            "nome": "Renzo"
+          },
+
+        "assunto": "Análise de Dados",
+        "alunos": [
+          {
+            "nome": "João"
+          },
+
+          {
+            "nome": "Romulo"
+          },
+
+          {
+            "nome": "Pedro"
+          },
+
+          {
+            "nome": "Samuel"
+          }
+        ]
+    },
+
+    {
+        "professor": {
+            "nome": "Carlos Nazaré"
+          },
+
+        "assunto": "Trabalho de Conclusão de Curso",
+        "alunos": [
+          {
+            "nome": "Igor"
+          },
+
+          {
+            "nome": "Mariana"
+          },
+
+          {
+            "nome": "Rodrigo"
+          },
+
+          {
+            "nome": "Isadora"
+          }
+        ]
+    }
+]
