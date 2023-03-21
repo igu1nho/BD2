@@ -24,7 +24,7 @@ class ProductAnalyzer:
             "total_vendido_no_dia": {"$sum": "$valor"}}},
             {"$sort": {"_id": 1}}
     ])
-
+        # chama a função writeAJson para gravar o resultado em um arquivo JSON
         writeAJson(result_day_sell, "Total de vendas no dia")
 
 # 2 Retorne o produto mais vendido em cada compra.
@@ -36,7 +36,7 @@ class ProductAnalyzer:
             { "$group": { "_id": "$_id.compra", "produto": { "$first": "$_id.produto" }, "total": { "$first": "$total" } } },
             { "$project": { "compra": "$_id", "produto": 1, "total": 1, "_id": 0 } }
     ])
-
+        # chama a função writeAJson para gravar o resultado em um arquivo JSON
         writeAJson(result_most_sell, "Produto mais vendido")
 
 # 3 Encontrando o cliente que mais gastou em uma única compra.
@@ -58,7 +58,7 @@ class ProductAnalyzer:
         {"$match": {"produtos.quantidade": {"$gt": 1}}},
         {"$project": {"_id": 0,"produto": "$produtos.descricao","quantidade_vendida": "$produtos.quantidade"}}
     ])
-
+        # chama a função writeAJson para gravar o resultado em um arquivo JSON
         writeAJson(result_more_than, "Produtos com quantidade vendida acima de 1 unidade")
 
 
