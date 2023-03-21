@@ -62,7 +62,7 @@ class ProductAnalyzer:
         writeAJson(result_more_than, "Produtos com quantidade vendida acima de 1 unidade")
 
 
-# instancia a classe ProductAnalyzer e chama o método customer_most para gerar o arquivo JSON
+# instancia a classe ProductAnalyzer e chama cada método para gerar o arquivo JSON
 pa = ProductAnalyzer(database="mercado")
 pa.day_selling()
 pa.most_selling()
