@@ -44,7 +44,7 @@ python -m pip install --upgrade pip
 ```bash
 python -m pip install pymongo
 ```
-
+### Instalando o Gson
 - 2º Com um simples comando você já instala também o Gson:
 ```bash
 python -m pip install gson
