@@ -7,6 +7,7 @@
    - [Versão e atualização do PIP](#versão-e-atualização)
    - [Instalação do Pymongo e Gson](#instalando-o-pymongo-gson)
    - [Clone](#clonar-o-projeto)
+- [Ativando a Venv](#v-env-)  
 
 # O Projeto 📈
 Projeto da matéria de Laboratório de Banco de Dados II (C214), ministrada pelo monitor **Bruno Almeida**. Tem como objetivo demonstrar a utilização do mongo db atlas, junto com o python para criação de um
@@ -56,3 +57,10 @@ Agora é hora de baixar o projeto e poder testar.
 ```bash
 git clone https://github.com/igu1nho/BD2/tree/main/Projeto
 ```
+
+### Ativando a Virtual Env
+# cria virtual env chamada .venv
+$ python -m venv .venv
+
+# ativa virtual env
+$ .venv\Scripts\activate
