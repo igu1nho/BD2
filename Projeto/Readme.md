@@ -13,10 +13,13 @@ Projeto da matéria de Laboratório de Banco de Dados II (C214), ministrada pelo
 um sistema cujo intuito é administrar um projeto. O banco tem uma collection Projetos é possível administar as classes projeto, tarefa, equipe, membro. 
 
 ## Equipe
-[![Fernanda Nagata Ito](https://avatars.githubusercontent.com/u/99490194?v=4)](https://github.com/FerNagata) [![Igor Luiz Rodrigues](https://avatars.githubusercontent.com/u/89806466?s=400&u=e8107d3d169b3775f289e49470b097b45d778d68&v=4)](https://github.com/igu1nho)
+[![Fernanda Nagata Ito](https://avatars.githubusercontent.com/u/99490194?v=4)](https://github.com/FerNagata) 
+[Fernanda Nagata Ito](https://github.com/FerNagata)
 
-[Fernanda Nagata Ito](https://github.com/FerNagata) [Igor Luiz Rodrigues](https://github.com/igu1nho)
+<br>
 
+[![Igor Luiz Rodrigues](https://avatars.githubusercontent.com/u/89806466?s=400&u=e8107d3d169b3775f289e49470b097b45d778d68&v=4)](https://github.com/igu1nho) 
+[Igor Luiz Rodrigues](https://github.com/igu1nho)
 
 
 ## Instalação ⚙💻
