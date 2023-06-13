@@ -7,7 +7,7 @@
    - [Versão e atualização do PIP](#versão-e-atualização)
    - [Instalação do Pymongo e Gson](#instalando-o-pymongo-gson)
    - [Clone](#clonando-o-projeto)
-   - [Ativando a Venv](#ativando-a-venv)  
+ - [Ativando a Venv](#ativando-a-venv)  
 
 # O Projeto 📈
 Projeto da matéria de Laboratório de Banco de Dados II (C214), ministrada pelo monitor **Bruno Almeida**. Tem como objetivo demonstrar a utilização do mongo db atlas, junto com o python para criação de um
