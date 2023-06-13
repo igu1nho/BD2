@@ -58,9 +58,13 @@ Agora é hora de baixar o projeto e poder testar.
 git clone https://github.com/igu1nho/BD2/tree/main/Projeto
 ```
 
-### Ativando a Venv
+### Ativando a venv
 - Cria virtual env chamada .venv
-$ python -m venv .venv
+```
+python -m venv .venv
+```
 
 - Ativa virtual env
+```
 $ .venv\Scripts\activate
+```
